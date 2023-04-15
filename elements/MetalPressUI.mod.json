@@ -1,0 +1,165 @@
+{
+  "_fv": 18,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 0,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": false,
+          "name": "Slot #0",
+          "x": 132,
+          "y": 98
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": "CUSTOM:EfficiencyUpgrade"
+          },
+          "id": 3,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": false,
+          "name": "Slot #3",
+          "x": 132,
+          "y": 78
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": "CUSTOM:EnergyUpgrade"
+          },
+          "id": 4,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": false,
+          "name": "Slot #4",
+          "x": 132,
+          "y": 60
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "lightning.png",
+          "use1Xscale": true,
+          "name": "lightning.png",
+          "x": 150,
+          "y": 80
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "lightning_2.png",
+          "use1Xscale": true,
+          "name": "lightning_2.png",
+          "x": 150,
+          "y": 61
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "<BNBT:integer:MT>/<BNBT:integer:MaxMT>MT",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "<BNBT:integer:MT>/<BNBT:integer:MaxMT>MT",
+          "x": 132,
+          "y": 42
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "plus.png",
+          "use1Xscale": false,
+          "name": "plus.png",
+          "x": 151,
+          "y": 99
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 1,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #1",
+          "x": 168,
+          "y": 98
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "arrow_back.png",
+          "use1Xscale": false,
+          "name": "arrow_back.png",
+          "x": 187,
+          "y": 99
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 2,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": false,
+          "name": "Slot #2",
+          "x": 212,
+          "y": 98
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "<BNBT:integer:Tick>/<BNBT:integer:MaxBuffer>",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "<BNBT:integer:Tick>/<BNBT:integer:MaxBuffer>",
+          "x": 132,
+          "y": 51
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Start",
+          "onClick": {
+            "name": "StartConverting"
+          },
+          "width": 50,
+          "height": 20,
+          "name": "Start",
+          "x": 243,
+          "y": 97
+        }
+      }
+    ]
+  }
+}

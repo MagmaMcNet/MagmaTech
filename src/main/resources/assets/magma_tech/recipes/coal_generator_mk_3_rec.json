@@ -1,0 +1,42 @@
+{
+  "group": "magma_tech",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "magma_tech:energy_upgrade"
+    },
+    "1": {
+      "item": "magma_tech:basic_coal_generator_mk_2"
+    },
+    "2": {
+      "item": "magma_tech:energy_upgrade"
+    },
+    "3": {
+      "item": "magma_tech:basic_coal_generator_mk_2"
+    },
+    "4": {
+      "item": "minecraft:redstone_block"
+    },
+    "5": {
+      "item": "magma_tech:basic_coal_generator_mk_2"
+    },
+    "6": {
+      "item": "magma_tech:energy_upgrade"
+    },
+    "7": {
+      "item": "magma_tech:basic_coal_generator_mk_2"
+    },
+    "8": {
+      "item": "magma_tech:energy_upgrade"
+    }
+  },
+  "result": {
+    "item": "magma_tech:basic_coal_generator_mk_3",
+    "count": 1
+  }
+}

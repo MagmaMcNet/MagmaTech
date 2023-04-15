@@ -1,0 +1,8 @@
+{
+  "parent": "magma_tech:custom/solarpanel",
+  "textures": {
+    "all": "magma_tech:blocks/solarpanel",
+    "particle": "magma_tech:blocks/solarpanel",
+    "0": "magma_tech:blocks/solarpanel"
+  }
+}

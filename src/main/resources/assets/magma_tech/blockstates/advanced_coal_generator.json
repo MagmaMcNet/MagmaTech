@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "normal": {
+      "model": "magma_tech:advanced_coal_generator"
+    },
+    "facing=north": {
+      "model": "magma_tech:advanced_coal_generator"
+    },
+    "facing=east": {
+      "model": "magma_tech:advanced_coal_generator",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "magma_tech:advanced_coal_generator",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "magma_tech:advanced_coal_generator",
+      "y": 270
+    }
+  }
+}

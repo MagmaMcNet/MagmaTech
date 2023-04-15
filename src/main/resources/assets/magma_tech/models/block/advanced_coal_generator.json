@@ -1,0 +1,8 @@
+{
+  "parent": "magma_tech:custom/advanedcoalgenerator",
+  "textures": {
+    "all": "magma_tech:blocks/advancedcoalgenerator",
+    "particle": "magma_tech:blocks/advancedcoalgenerator",
+    "0": "magma_tech:blocks/advancedcoalgenerator"
+  }
+}

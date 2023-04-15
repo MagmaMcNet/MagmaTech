@@ -1,0 +1,38 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:dirt",
+      "data": 1
+    },
+    "title": {
+      "translate": "advancements.adv_getting_your_hands_dirty.title"
+    },
+    "description": {
+      "translate": "advancements.adv_getting_your_hands_dirty.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "adv_getting_your_hands_dirty": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "magma_tech:basic_coal_generator_mk_1",
+            "count": {
+              "min": 1,
+              "max": 1024
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 5
+  },
+  "parent": "magma_tech:m_troot_adv"
+}

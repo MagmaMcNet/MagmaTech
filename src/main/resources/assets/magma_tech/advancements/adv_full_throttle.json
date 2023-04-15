@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "item": "magma_tech:basic_coal_generator_mk_3"
+    },
+    "title": {
+      "translate": "advancements.adv_full_throttle.title"
+    },
+    "description": {
+      "translate": "advancements.adv_full_throttle.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "adv_full_throttle": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "magma_tech:basic_coal_generator_mk_3",
+            "count": {
+              "min": 1,
+              "max": 1024
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 25
+  },
+  "parent": "magma_tech:adv_better_power"
+}

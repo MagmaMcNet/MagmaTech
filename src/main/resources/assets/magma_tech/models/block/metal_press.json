@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "magma_tech:blocks/solarpanel",
+    "up": "magma_tech:blocks/solarpanel",
+    "north": "magma_tech:blocks/solarpanel",
+    "east": "magma_tech:blocks/solarpanel",
+    "south": "magma_tech:blocks/solarpanel",
+    "west": "magma_tech:blocks/solarpanel",
+    "particle": "magma_tech:blocks/solarpanel"
+  }
+}

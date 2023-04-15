@@ -1,0 +1,519 @@
+{
+  "id_map": {
+    "GUI": 2
+  },
+  "mod_elements": [
+    {
+      "name": "CoalGeneratorMk1",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "basic_coal_generator_mk_1"
+    },
+    {
+      "name": "SolarPanel",
+      "type": "block",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "solar_panel"
+    },
+    {
+      "name": "SolarPanel_Update",
+      "type": "procedure",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "solar_panel_update",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CoalGeneratorUI",
+      "type": "gui",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 1
+      },
+      "registry_name": "coal_generator_ui"
+    },
+    {
+      "name": "MagmaTechTab",
+      "type": "tab",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "magma_tech_tab"
+    },
+    {
+      "name": "CoalGeneratorMk1_Update",
+      "type": "procedure",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "coal_generator_mk_1_update",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CoalGeneratorMk2Update",
+      "type": "procedure",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "coal_generator_mk_2_update",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CoalGeneratorMk2",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "basic_coal_generator_mk_2"
+    },
+    {
+      "name": "GoldenWire",
+      "type": "item",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "golden_wire"
+    },
+    {
+      "name": "GoldenWireREC",
+      "type": "recipe",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "golden_wire_rec"
+    },
+    {
+      "name": "ElectricMotorREC",
+      "type": "recipe",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "electric_motor_rec"
+    },
+    {
+      "name": "ElectricMotor",
+      "type": "item",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "electric_motor"
+    },
+    {
+      "name": "EfficiencyUpgrade",
+      "type": "item",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "efficiency_upgrade"
+    },
+    {
+      "name": "EnergyUpgrade",
+      "type": "item",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "energy_upgrade"
+    },
+    {
+      "name": "EfficiencyUpgradeREC",
+      "type": "recipe",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "efficiency_upgrade_rec"
+    },
+    {
+      "name": "EnergyUpgradeREC",
+      "type": "recipe",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "energy_upgrade_rec"
+    },
+    {
+      "name": "MTrootADV",
+      "type": "achievement",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "m_troot_adv"
+    },
+    {
+      "name": "CoalGeneratorMk1REC",
+      "type": "recipe",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "coal_generator_mk_1_rec"
+    },
+    {
+      "name": "CoalGeneratorMk2REC",
+      "type": "recipe",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "coal_generator_mk_2_rec"
+    },
+    {
+      "name": "CoalGeneratorMk3",
+      "type": "block",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "basic_coal_generator_mk_3"
+    },
+    {
+      "name": "CoalGeneratorMk3REC",
+      "type": "recipe",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "coal_generator_mk_3_rec"
+    },
+    {
+      "name": "ADVGettingYourHandsDirty",
+      "type": "achievement",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "adv_getting_your_hands_dirty"
+    },
+    {
+      "name": "CoalGeneratorMk3Update",
+      "type": "procedure",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "coal_generator_mk_3_update",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ADVBetterPower",
+      "type": "achievement",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "adv_better_power"
+    },
+    {
+      "name": "ADVFullThrottle",
+      "type": "achievement",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "adv_full_throttle"
+    },
+    {
+      "name": "ADVMotorsation",
+      "type": "achievement",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "adv_motorsation"
+    },
+    {
+      "name": "InputBlockTemplate",
+      "type": "procedure",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "input_block_template",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MetalPress",
+      "type": "block",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "metal_press"
+    },
+    {
+      "name": "MetalPressUI",
+      "type": "gui",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 2
+      },
+      "registry_name": "metal_press_ui"
+    },
+    {
+      "name": "MetalPressUpdate",
+      "type": "procedure",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "metal_press_update",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "StartConverting",
+      "type": "procedure",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "start_converting",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AdvancedCoalGenerator",
+      "type": "block",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "advanced_coal_generator"
+    },
+    {
+      "name": "AdvancedCoalGeneratorUpdate",
+      "type": "procedure",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "advanced_coal_generator_update",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "tile.basic_coal_generator_mk_1.name": "Basic Coal Generator Mk1",
+      "advancements.adv_getting_your_hands_dirty.descr": "Craft Your Self Mk1 Version Of The Coal Generator",
+      "advancements.adv_full_throttle.title": "Going Full Throttle",
+      "tile.advanced_coal_generator.name": "Advanced Coal Generator",
+      "advancements.m_troot_adv.title": "Magma [Tech]",
+      "advancements.adv_better_power.descr": "Craft Your Self Mk2 Version Of The Coal Generator",
+      "tile.basic_coal_generator_mk_3.name": "Basic Coal Generator Mk3",
+      "advancements.m_troot_adv.descr": "Welcome Magma Tech",
+      "tile.metal_press.name": "Metal Press",
+      "advancements.adv_getting_your_hands_dirty.title": "Getting Your Hands Dirty",
+      "itemGroup.tabmagma_tech_tab": "Magma Tech",
+      "item.energy_upgrade.name": "Energy Upgrade",
+      "item.efficiency_upgrade.name": "Efficiency Upgrade",
+      "item.golden_wire.name": "Golden Wire",
+      "advancements.adv_better_power.title": "Better Power",
+      "advancements.adv_motorsation.title": "Motorsation",
+      "item.electric_motor.name": "Electric Motor",
+      "advancements.adv_full_throttle.descr": "Craft The Mk3 Version Of The Coal Generator",
+      "advancements.adv_motorsation.descr": "Craft An Electric Motor",
+      "tile.solar_panel.name": "Solar Panel",
+      "tile.basic_coal_generator_mk_2.name": "Basic Coal Generator Mk2"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "magma_tech",
+    "modName": "Magma [Tech]",
+    "version": "1.0.0-2A",
+    "author": "MagmaMc",
+    "websiteURL": "https://profile.magma-mc.net",
+    "license": "All Rights Reserved",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "modPicture": "magma_ico",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.12.2",
+    "credits": "MagmaMc",
+    "modElementsPackage": "net.magma_mc.magmatech",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202100118117
+}

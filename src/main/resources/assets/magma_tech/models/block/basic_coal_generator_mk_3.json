@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "magma_tech:blocks/generator_mk3",
+    "up": "magma_tech:blocks/generator_mk3",
+    "north": "magma_tech:blocks/coal_generator_mk3_front",
+    "east": "magma_tech:blocks/generator_mk3",
+    "south": "magma_tech:blocks/generator_mk3",
+    "west": "magma_tech:blocks/generator_mk3",
+    "particle": "magma_tech:blocks/generator_mk3"
+  }
+}

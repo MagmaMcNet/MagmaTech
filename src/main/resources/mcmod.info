@@ -1,0 +1,20 @@
+[
+  {
+    "modid": "magma_tech",
+    "name": "Magma [Tech]",
+    "description": "",
+    "version": "1.0.0-2A",
+    "credits": "MagmaMc",
+    "logoFile": "assets/magma_tech/textures/magma_ico.png",
+    "mcversion": "1.12.2",
+    "url": "https://profile.magma-mc.net",
+    "updateUrl": "",
+    "authorList": [
+      "MagmaMc"
+    ],
+    "dependencies": [],
+    "dependants": [],
+    "requiredMods": [],
+    "useDependencyInformation": "true"
+  }
+]

@@ -1,0 +1,126 @@
+{
+  "_fv": 18,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": "Items.COAL#0"
+          },
+          "id": 0,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": false,
+          "name": "Slot #0",
+          "x": 132,
+          "y": 98
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": "CUSTOM:EfficiencyUpgrade"
+          },
+          "id": 1,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": false,
+          "name": "Slot #1",
+          "x": 132,
+          "y": 80
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": "CUSTOM:EnergyUpgrade"
+          },
+          "id": 2,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": false,
+          "name": "Slot #2",
+          "x": 132,
+          "y": 62
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "ash.png",
+          "use1Xscale": false,
+          "name": "ash.png",
+          "x": 151,
+          "y": 100
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "lightning.png",
+          "use1Xscale": true,
+          "name": "lightning.png",
+          "x": 151,
+          "y": 81
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "lightning_2.png",
+          "use1Xscale": true,
+          "name": "lightning_2.png",
+          "x": 151,
+          "y": 63
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "<BNBT:integer:MT>/<BNBT:integer:MaxMT>MT",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "<BNBT:integer:MT>/<BNBT:integer:MaxMT>MT",
+          "x": 132,
+          "y": 43
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "<BNBT:integer:Tick>/<BNBT:integer:MaxBuffer> Buffer",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "<BNBT:integer:Tick>/<BNBT:integer:MaxBuffer> Buffer",
+          "x": 132,
+          "y": 52
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "<BNBT:integer:Generation>MT/t",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "<BNBT:integer:Generation>MT/t",
+          "x": 249,
+          "y": 107
+        }
+      }
+    ]
+  }
+}

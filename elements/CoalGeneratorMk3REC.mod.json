@@ -1,0 +1,46 @@
+{
+  "_fv": 18,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:EnergyUpgrade"
+      },
+      {
+        "value": "CUSTOM:CoalGeneratorMk2"
+      },
+      {
+        "value": "CUSTOM:EnergyUpgrade"
+      },
+      {
+        "value": "CUSTOM:CoalGeneratorMk2"
+      },
+      {
+        "value": "Blocks.REDSTONE_BLOCK"
+      },
+      {
+        "value": "CUSTOM:CoalGeneratorMk2"
+      },
+      {
+        "value": "CUSTOM:EnergyUpgrade"
+      },
+      {
+        "value": "CUSTOM:CoalGeneratorMk2"
+      },
+      {
+        "value": "CUSTOM:EnergyUpgrade"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:CoalGeneratorMk3"
+    },
+    "name": "coal_generator_mk_3_rec",
+    "namespace": "mod"
+  }
+}
